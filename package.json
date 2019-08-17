@@ -1,0 +1,22 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "repository": "https://github.com/bennie-ben/prismagram.git",
+  "author": "Ben <exit21sb@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "dotenv": "^8.0.0",
+    "graphql-yoga": "^1.18.1",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5"
+  }
+}
